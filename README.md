@@ -19,3 +19,14 @@ console.log(personsFullInformation);
 /// Will print:
 { name: 'Thembi', surname: 'Ndou', age: 25, gender: 'Female' }
 ```
+```
+const firstFiveNumbers = [1, 2, 3, 4, 5];
+
+const secondFiveNumbers = [6, 7, 8, 9, 10];
+
+const fullTenNumbers = [...firstFiveNumbers, ...secondFiveNumbers];
+
+console.log(fullTenNumbers);
+/// Will print:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
