@@ -17,7 +17,7 @@ const personsFullInformation = { ...personsFirstInformation, ...personsSecondInf
 
 console.log(personsFullInformation);
 /// Will print:
-{ name: 'Thembi', surname: 'Ndou', age: 25, gender: 'Female' }
+/// { name: 'Thembi', surname: 'Ndou', age: 25, gender: 'Female' }
 ```
 ```
 const firstFiveNumbers = [1, 2, 3, 4, 5];
@@ -28,5 +28,5 @@ const fullTenNumbers = [...firstFiveNumbers, ...secondFiveNumbers];
 
 console.log(fullTenNumbers);
 /// Will print:
-[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+/// [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
